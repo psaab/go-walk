@@ -1,3 +1,3 @@
-module github.com/opencoff/go-walk
+module github.com/psaab/go-walk
 
 go 1.20
