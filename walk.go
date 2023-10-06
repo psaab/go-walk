@@ -28,7 +28,7 @@ const (
 
 	// we use one worker per CPU core for the concurrent walker.
 	// ParallelismFactor multiples the number of go-routines.
-	_ParallelismFactor int = 8
+	_ParallelismFactor int = 32
 
 	// Max number of consecutive symlinks we will follow
 	_MaxSymlinks int = 100
